@@ -1,0 +1,913 @@
+[
+    {
+        "id": "3",
+        "name": "Airi 01",
+        "character": "airi",
+        "img": "airi/Airi_01.png",
+        "color": "#FB8AAC",
+        "defaultText": {
+            "text": "keep up",
+            "x": 148,
+            "y": 58,
+            "r": -2,
+            "s": 47
+        }
+    },
+    {
+        "id": "4",
+        "name": "Airi 02",
+        "character": "airi",
+        "img": "airi/Airi_02.png",
+        "color": "#FB8AAC",
+        "defaultText": {
+            "text": "nice to meet ya",
+            "x": 148,
+            "y": 58,
+            "r": 0,
+            "s": 28
+        }
+    },
+    {
+        "id": "5",
+        "name": "Airi 03",
+        "character": "airi",
+        "img": "airi/Airi_03.png",
+        "color": "#FB8AAC",
+        "defaultText": {
+            "text": "keep at it!",
+            "x": 140,
+            "y": 79,
+            "r": 2,
+            "s": 47
+        }
+    },
+    {
+        "id": "6",
+        "name": "Airi 04",
+        "character": "airi",
+        "img": "airi/Airi_04.png",
+        "color": "#FB8AAC",
+        "defaultText": {
+            "text": "something",
+            "x": 148,
+            "y": 58,
+            "r": -2,
+            "s": 47
+        }
+    },
+    {
+        "id": "8",
+        "name": "Airi 06",
+        "character": "airi",
+        "img": "airi/Airi_06.png",
+        "color": "#FB8AAC",
+        "defaultText": {
+            "text": "something",
+            "x": 148,
+            "y": 58,
+            "r": -2,
+            "s": 47
+        }
+    },
+    {
+        "id": "9",
+        "name": "Airi 07",
+        "character": "airi",
+        "img": "airi/Airi_07.png",
+        "color": "#FB8AAC",
+        "defaultText": {
+            "text": "something",
+            "x": 148,
+            "y": 58,
+            "r": -2,
+            "s": 47
+        }
+    },
+    {
+        "id": "10",
+        "name": "Airi 08",
+        "character": "airi",
+        "img": "airi/Airi_08.png",
+        "color": "#FB8AAC",
+        "defaultText": {
+            "text": "something",
+            "x": 148,
+            "y": 58,
+            "r": -2,
+            "s": 47
+        }
+    },
+    {
+        "id": "11",
+        "name": "Airi 09",
+        "character": "airi",
+        "img": "airi/Airi_09.png",
+        "color": "#FB8AAC",
+        "defaultText": {
+            "text": "something",
+            "x": 148,
+            "y": 58,
+            "r": -2,
+            "s": 47
+        }
+    },
+    {
+        "id": "13",
+        "name": "Airi 11",
+        "character": "airi",
+        "img": "airi/Airi_11.png",
+        "color": "#FB8AAC",
+        "defaultText": {
+            "text": "something",
+            "x": 148,
+            "y": 58,
+            "r": -2,
+            "s": 47
+        }
+    },
+    {
+        "id": "14",
+        "name": "Airi 12",
+        "character": "airi",
+        "img": "airi/Airi_12.png",
+        "color": "#FB8AAC",
+        "defaultText": {
+            "text": "something",
+            "x": 148,
+            "y": 58,
+            "r": -2,
+            "s": 47
+        }
+    },
+    {
+        "id": "15",
+        "name": "Airi 13",
+        "character": "airi",
+        "img": "airi/Airi_13.png",
+        "color": "#FB8AAC",
+        "defaultText": {
+            "text": "something",
+            "x": 148,
+            "y": 58,
+            "r": -2,
+            "s": 47
+        }
+    },
+    {
+        "id": "16",
+        "name": "Airi 14",
+        "character": "airi",
+        "img": "airi/Airi_14.png",
+        "color": "#FB8AAC",
+        "defaultText": {
+            "text": "something",
+            "x": 148,
+            "y": 58,
+            "r": -2,
+            "s": 47
+        }
+    },
+    {
+        "id": "18",
+        "name": "Airi 16",
+        "character": "airi",
+        "img": "airi/Airi_16.png",
+        "color": "#FB8AAC",
+        "defaultText": {
+            "text": "something",
+            "x": 148,
+            "y": 58,
+            "r": -2,
+            "s": 47
+        }
+    },
+    {
+        "id": "19",
+        "name": "Akito 01",
+        "character": "akito",
+        "img": "akito/Akito_01.png",
+        "color": "#FF7722",
+        "defaultText": {
+            "text": "something",
+            "x": 148,
+            "y": 58,
+            "r": -2,
+            "s": 47
+        }
+    },
+    {
+        "id": "20",
+        "name": "Akito 02",
+        "character": "akito",
+        "img": "akito/Akito_02.png",
+        "color": "#FF7722",
+        "defaultText": {
+            "text": "something",
+            "x": 148,
+            "y": 58,
+            "r": -2,
+            "s": 47
+        }
+    },
+    {
+        "id": "21",
+        "name": "Akito 03",
+        "character": "akito",
+        "img": "akito/Akito_03.png",
+        "color": "#FF7722",
+        "defaultText": {
+            "text": "something",
+            "x": 148,
+            "y": 58,
+            "r": -2,
+            "s": 47
+        }
+    },
+    {
+        "id": "22",
+        "name": "Akito 04",
+        "character": "akito",
+        "img": "akito/Akito_04.png",
+        "color": "#FF7722",
+        "defaultText": {
+            "text": "something",
+            "x": 148,
+            "y": 58,
+            "r": -2,
+            "s": 47
+        }
+    },
+    {
+        "id": "24",
+        "name": "Akito 06",
+        "character": "akito",
+        "img": "akito/Akito_06.png",
+        "color": "#FF7722",
+        "defaultText": {
+            "text": "something",
+            "x": 148,
+            "y": 58,
+            "r": -2,
+            "s": 47
+        }
+    },
+    {
+        "id": "25",
+        "name": "Akito 07",
+        "character": "akito",
+        "img": "akito/Akito_07.png",
+        "color": "#FF7722",
+        "defaultText": {
+            "text": "something",
+            "x": 148,
+            "y": 58,
+            "r": -2,
+            "s": 47
+        }
+    },
+    {
+        "id": "26",
+        "name": "Akito 08",
+        "character": "akito",
+        "img": "akito/Akito_08.png",
+        "color": "#FF7722",
+        "defaultText": {
+            "text": "something",
+            "x": 148,
+            "y": 58,
+            "r": -2,
+            "s": 47
+        }
+    },
+    {
+        "id": "27",
+        "name": "Akito 09",
+        "character": "akito",
+        "img": "akito/Akito_09.png",
+        "color": "#FF7722",
+        "defaultText": {
+            "text": "something",
+            "x": 148,
+            "y": 58,
+            "r": -2,
+            "s": 47
+        }
+    },
+    {
+        "id": "29",
+        "name": "Akito 11",
+        "character": "akito",
+        "img": "akito/Akito_11.png",
+        "color": "#FF7722",
+        "defaultText": {
+            "text": "something",
+            "x": 148,
+            "y": 58,
+            "r": -2,
+            "s": 47
+        }
+    },
+    {
+        "id": "30",
+        "name": "Akito 12",
+        "character": "akito",
+        "img": "akito/Akito_12.png",
+        "color": "#FF7722",
+        "defaultText": {
+            "text": "something",
+            "x": 148,
+            "y": 58,
+            "r": -2,
+            "s": 47
+        }
+    },
+    {
+        "id": "31",
+        "name": "Akito 13",
+        "character": "akito",
+        "img": "akito/Akito_13.png",
+        "color": "#FF7722",
+        "defaultText": {
+            "text": "something",
+            "x": 148,
+            "y": 58,
+            "r": -2,
+            "s": 47
+        }
+    },
+    {
+        "id": "32",
+        "name": "Akito 14",
+        "character": "akito",
+        "img": "akito/Akito_14.png",
+        "color": "#FF7722",
+        "defaultText": {
+            "text": "something",
+            "x": 148,
+            "y": 58,
+            "r": -2,
+            "s": 47
+        }
+    },
+    {
+        "id": "33",
+        "name": "Akito 16",
+        "character": "akito",
+        "img": "akito/Akito_16.png",
+        "color": "#FF7722",
+        "defaultText": {
+            "text": "something",
+            "x": 148,
+            "y": 58,
+            "r": -2,
+            "s": 47
+        }
+    },
+    {
+        "id": "34",
+        "name": "An 01",
+        "character": "an",
+        "img": "an/An_01.png",
+        "color": "#00BADC",
+        "defaultText": {
+            "text": "something",
+            "x": 148,
+            "y": 58,
+            "r": -2,
+            "s": 47
+        }
+    },
+    {
+        "id": "35",
+        "name": "An 02",
+        "character": "an",
+        "img": "an/An_02.png",
+        "color": "#00BADC",
+        "defaultText": {
+            "text": "something",
+            "x": 148,
+            "y": 58,
+            "r": -2,
+            "s": 47
+        }
+    },
+    {
+        "id": "36",
+        "name": "An 03",
+        "character": "an",
+        "img": "an/An_03.png",
+        "color": "#00BADC",
+        "defaultText": {
+            "text": "something",
+            "x": 148,
+            "y": 58,
+            "r": -2,
+            "s": 47
+        }
+    },
+    {
+        "id": "37",
+        "name": "An 04",
+        "character": "an",
+        "img": "an/An_04.png",
+        "color": "#00BADC",
+        "defaultText": {
+            "text": "something",
+            "x": 148,
+            "y": 58,
+            "r": -2,
+            "s": 47
+        }
+    },
+    {
+        "id": "39",
+        "name": "An 06",
+        "character": "an",
+        "img": "an/An_06.png",
+        "color": "#00BADC",
+        "defaultText": {
+            "text": "something",
+            "x": 148,
+            "y": 58,
+            "r": -2,
+            "s": 47
+        }
+    },
+    {
+        "id": "40",
+        "name": "An 07",
+        "character": "an",
+        "img": "an/An_07.png",
+        "color": "#00BADC",
+        "defaultText": {
+            "text": "something",
+            "x": 148,
+            "y": 58,
+            "r": -2,
+            "s": 47
+        }
+    },
+    {
+        "id": "41",
+        "name": "An 08",
+        "character": "an",
+        "img": "an/An_08.png",
+        "color": "#00BADC",
+        "defaultText": {
+            "text": "something",
+            "x": 148,
+            "y": 58,
+            "r": -2,
+            "s": 47
+        }
+    },
+    {
+        "id": "42",
+        "name": "An 09",
+        "character": "an",
+        "img": "an/An_09.png",
+        "color": "#00BADC",
+        "defaultText": {
+            "text": "something",
+            "x": 148,
+            "y": 58,
+            "r": -2,
+            "s": 47
+        }
+    },
+    {
+        "id": "44",
+        "name": "An 11",
+        "character": "an",
+        "img": "an/An_11.png",
+        "color": "#00BADC",
+        "defaultText": {
+            "text": "something",
+            "x": 148,
+            "y": 58,
+            "r": -2,
+            "s": 47
+        }
+    },
+    {
+        "id": "45",
+        "name": "An 12",
+        "character": "an",
+        "img": "an/An_12.png",
+        "color": "#00BADC",
+        "defaultText": {
+            "text": "something",
+            "x": 148,
+            "y": 58,
+            "r": -2,
+            "s": 47
+        }
+    },
+    {
+        "id": "46",
+        "name": "An 13",
+        "character": "an",
+        "img": "an/An_13.png",
+        "color": "#00BADC",
+        "defaultText": {
+            "text": "something",
+            "x": 148,
+            "y": 58,
+            "r": -2,
+            "s": 47
+        }
+    },
+    {
+        "id": "47",
+        "name": "An 14",
+        "character": "an",
+        "img": "an/An_14.png",
+        "color": "#00BADC",
+        "defaultText": {
+            "text": "something",
+            "x": 148,
+            "y": 58,
+            "r": -2,
+            "s": 47
+        }
+    },
+    {
+        "id": "49",
+        "name": "An 16",
+        "character": "an",
+        "img": "an/An_16.png",
+        "color": "#00BADC",
+        "defaultText": {
+            "text": "something",
+            "x": 148,
+            "y": 58,
+            "r": -2,
+            "s": 47
+        }
+    },
+    {
+        "id": "50",
+        "name": "Emu 01",
+        "character": "emu",
+        "img": "emu/Emu_01.png",
+        "color": "#FF66BB",
+        "defaultText": {
+            "text": "something",
+            "x": 148,
+            "y": 58,
+            "r": -2,
+            "s": 47
+        }
+    },
+    {
+        "id": "51",
+        "name": "Emu 02",
+        "character": "emu",
+        "img": "emu/Emu_02.png",
+        "color": "#FF66BB",
+        "defaultText": {
+            "text": "something",
+            "x": 148,
+            "y": 58,
+            "r": -2,
+            "s": 47
+        }
+    },
+    {
+        "id": "52",
+        "name": "Emu 03",
+        "character": "emu",
+        "img": "emu/Emu_03.png",
+        "color": "#FF66BB",
+        "defaultText": {
+            "text": "something",
+            "x": 148,
+            "y": 58,
+            "r": -2,
+            "s": 47
+        }
+    },
+    {
+        "id": "53",
+        "name": "Emu 04",
+        "character": "emu",
+        "img": "emu/Emu_04.png",
+        "color": "#FF66BB",
+        "defaultText": {
+            "text": "something",
+            "x": 148,
+            "y": 58,
+            "r": -2,
+            "s": 47
+        }
+    },
+    {
+        "id": "55",
+        "name": "Emu 06",
+        "character": "emu",
+        "img": "emu/Emu_06.png",
+        "color": "#FF66BB",
+        "defaultText": {
+            "text": "something",
+            "x": 148,
+            "y": 58,
+            "r": -2,
+            "s": 47
+        }
+    },
+    {
+        "id": "56",
+        "name": "Emu 07",
+        "character": "emu",
+        "img": "emu/Emu_07.png",
+        "color": "#FF66BB",
+        "defaultText": {
+            "text": "something",
+            "x": 148,
+            "y": 58,
+            "r": -2,
+            "s": 47
+        }
+    },
+    {
+        "id": "57",
+        "name": "Emu 08",
+        "character": "emu",
+        "img": "emu/Emu_08.png",
+        "color": "#FF66BB",
+        "defaultText": {
+            "text": "something",
+            "x": 148,
+            "y": 58,
+            "r": -2,
+            "s": 47
+        }
+    },
+    {
+        "id": "58",
+        "name": "Emu 09",
+        "character": "emu",
+        "img": "emu/Emu_09.png",
+        "color": "#FF66BB",
+        "defaultText": {
+            "text": "something",
+            "x": 148,
+            "y": 58,
+            "r": -2,
+            "s": 47
+        }
+    },
+    {
+        "id": "60",
+        "name": "Emu 11",
+        "character": "emu",
+        "img": "emu/Emu_11.png",
+        "color": "#FF66BB",
+        "defaultText": {
+            "text": "something",
+            "x": 148,
+            "y": 58,
+            "r": -2,
+            "s": 47
+        }
+    },
+    {
+        "id": "61",
+        "name": "Emu 12",
+        "character": "emu",
+        "img": "emu/Emu_12.png",
+        "color": "#FF66BB",
+        "defaultText": {
+            "text": "something",
+            "x": 148,
+            "y": 58,
+            "r": -2,
+            "s": 47
+        }
+    },
+    {
+        "id": "62",
+        "name": "Emu 13",
+        "character": "emu",
+        "img": "emu/Emu_13.png",
+        "color": "#FF66BB",
+        "defaultText": {
+            "text": "Wonderhoy!",
+            "x": 148,
+            "y": 70,
+            "r": -2,
+            "s": 38
+        }
+    },
+    {
+        "id": "63",
+        "name": "Emu 14",
+        "character": "emu",
+        "img": "emu/Emu_14.png",
+        "color": "#FF66BB",
+        "defaultText": {
+            "text": "something",
+            "x": 148,
+            "y": 58,
+            "r": -2,
+            "s": 47
+        }
+    },
+    {
+        "id": "65",
+        "name": "Emu 16",
+        "character": "emu",
+        "img": "emu/Emu_16.png",
+        "color": "#FF66BB",
+        "defaultText": {
+            "text": "something",
+            "x": 148,
+            "y": 58,
+            "r": -2,
+            "s": 47
+        }
+    },
+    {
+        "id": "66",
+        "name": "Ena 01",
+        "character": "ena",
+        "img": "ena/Ena_01.png",
+        "color": "#B18F6C",
+        "defaultText": {
+            "text": "something",
+            "x": 148,
+            "y": 58,
+            "r": -2,
+            "s": 47
+        }
+    },
+    {
+        "id": "67",
+        "name": "Ena 02",
+        "character": "ena",
+        "img": "ena/Ena_02.png",
+        "color": "#B18F6C",
+        "defaultText": {
+            "text": "something",
+            "x": 148,
+            "y": 58,
+            "r": -2,
+            "s": 47
+        }
+    },
+    {
+        "id": "68",
+        "name": "Ena 03",
+        "character": "ena",
+        "img": "ena/Ena_03.png",
+        "color": "#B18F6C",
+        "defaultText": {
+            "text": "something",
+            "x": 148,
+            "y": 58,
+            "r": -2,
+            "s": 47
+        }
+    },
+    {
+        "id": "69",
+        "name": "Ena 04",
+        "character": "ena",
+        "img": "ena/Ena_04.png",
+        "color": "#B18F6C",
+        "defaultText": {
+            "text": "something",
+            "x": 148,
+            "y": 58,
+            "r": -2,
+            "s": 47
+        }
+    },
+    {
+        "id": "71",
+        "name": "Ena 06",
+        "character": "ena",
+        "img": "ena/Ena_06.png",
+        "color": "#B18F6C",
+        "defaultText": {
+            "text": "something",
+            "x": 148,
+            "y": 58,
+            "r": -2,
+            "s": 47
+        }
+    },
+    {
+        "id": "72",
+        "name": "Ena 07",
+        "character": "ena",
+        "img": "ena/Ena_07.png",
+        "color": "#B18F6C",
+        "defaultText": {
+            "text": "something",
+            "x": 148,
+            "y": 58,
+            "r": -2,
+            "s": 47
+        }
+    },
+    {
+        "id": "73",
+        "name": "Ena 08",
+        "character": "ena",
+        "img": "ena/Ena_08.png",
+        "color": "#B18F6C",
+        "defaultText": {
+            "text": "something",
+            "x": 148,
+            "y": 58,
+            "r": -2,
+            "s": 47
+        }
+    },
+    {
+        "id": "74",
+        "name": "Ena 09",
+        "character": "ena",
+        "img": "ena/Ena_09.png",
+        "color": "#B18F6C",
+        "defaultText": {
+            "text": "something",
+            "x": 148,
+            "y": 58,
+            "r": -2,
+            "s": 47
+        }
+    },
+    {
+        "id": "76",
+        "name": "Ena 11",
+        "character": "ena",
+        "img": "ena/Ena_11.png",
+        "color": "#B18F6C",
+        "defaultText": {
+            "text": "something",
+            "x": 148,
+            "y": 58,
+            "r": -2,
+            "s": 47
+        }
+    },
+    {
+        "id": "77",
+        "name": "Ena 12",
+        "character": "ena",
+        "img": "ena/Ena_12.png",
+        "color": "#B18F6C",
+        "defaultText": {
+            "text": "something",
+            "x": 148,
+            "y": 58,
+            "r": -2,
+            "s": 47
+        }
+    },
+    {
+        "id": "78",
+        "name": "Ena 13",
+        "character": "ena",
+        "img": "ena/Ena_13.png",
+        "color": "#B18F6C",
+        "defaultText": {
+            "text": "something",
+            "x": 148,
+            "y": 58,
+            "r": -2,
+            "s": 47
+        }
+    },
+    {
+        "id": "79",
+        "name": "Ena 14",
+        "character": "ena",
+        "img": "ena/Ena_14.png",
+        "color": "#B18F6C",
+        "defaultText": {
+            "text": "something",
+            "x": 148,
+            "y": 58,
+            "r": -2,
+            "s": 47
+        }
+    },
+    {
+        "id": "81",
+        "name": "Ena 16",
+        "character": "ena",
+        "img": "ena/Ena_16.png",
+        "color": "#B18F6C",
+        "defaultText": {
+            "text": "something",
+            "x": 148,
+            "y": 58,
+            "r": -2,
+            "s": 47
+        }
+    }
+  
+]

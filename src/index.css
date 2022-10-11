@@ -1,0 +1,10 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: rgb(87, 73, 91);
+}
+
+@font-face {
+  font-family: 'YurukaStd';
+  src: local('YurukaStd'), url(./fonts/YurukaStd.woff2) format('woff2');
+}

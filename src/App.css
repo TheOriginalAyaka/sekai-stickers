@@ -1,0 +1,68 @@
+.App {
+  text-align: center;
+}
+
+.container {
+  padding: 4rem;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.canvas {
+  height: 256px;
+  width: 296px;
+  border: 1px solid #ddd;
+}
+
+.vertical {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 256px;
+}
+
+.horizontal {
+  width: 296px;
+  margin-left: -30px;
+
+}
+
+.settings {
+  color: white;
+  font-family: "YurukaStd";
+  margin: 1.5rem 0 1.5rem 0;
+}
+
+.settings > div {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.text {
+  margin-bottom: 1rem;
+}
+
+.picker {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.footer {
+  margin-top: 2rem;
+  font-family: "YurukaStd";
+}
+
+.footer > a {
+  color: rgb(199, 199, 199);
+  text-decoration: none;
+}
+
+.footer > a:hover {
+  color: rgb(255, 255, 255);
+}
