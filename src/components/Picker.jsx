@@ -39,7 +39,14 @@ export default function Picker({ setCharacter }) {
           horizontal: "left",
         }}
       >
-        <ImageList sx={{ width: 500, height: 450 }} cols={4} rowHeight={120}>
+        <ImageList
+          sx={{
+            width: window.innerWidth < 600 ? 300 : 500,
+            height: 450,
+          }}
+          cols={window.innerWidth < 600 ? 3 : 4}
+          rowHeight={120}
+        >
           {characters.map((c, index) => (
             <ImageListItem
               key={index}

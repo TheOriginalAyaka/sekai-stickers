@@ -3,7 +3,7 @@
 }
 
 .container {
-  padding: 4rem;
+  padding: 2rem;
   align-items: center;
   justify-content: center;
   display: flex;
@@ -51,6 +51,14 @@
   align-items: center;
   justify-content: center;
   gap: 1rem;
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 1rem;
 }
 
 .footer {

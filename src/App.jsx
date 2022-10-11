@@ -7,6 +7,8 @@ import TextField from "@mui/material/TextField";
 import Button from "@mui/material/Button";
 import Picker from "./components/Picker";
 
+const { ClipboardItem } = window;
+
 function App() {
   const [character, setCharacter] = useState(49);
   const [text, setText] = useState(characters[character].defaultText.text);
@@ -63,6 +65,32 @@ function App() {
     link.download = `${characters[character].name}_st.ayaka.one.png`;
     link.href = canvas.toDataURL();
     link.click();
+  };
+
+  function b64toBlob(b64Data, contentType = null, sliceSize = null) {
+    contentType = contentType || "image/png";
+    sliceSize = sliceSize || 512;
+    let byteCharacters = atob(b64Data);
+    let byteArrays = [];
+    for (let offset = 0; offset < byteCharacters.length; offset += sliceSize) {
+      let slice = byteCharacters.slice(offset, offset + sliceSize);
+      let byteNumbers = new Array(slice.length);
+      for (let i = 0; i < slice.length; i++) {
+        byteNumbers[i] = slice.charCodeAt(i);
+      }
+      var byteArray = new Uint8Array(byteNumbers);
+      byteArrays.push(byteArray);
+    }
+    return new Blob(byteArrays, { type: contentType });
+  }
+
+  const copy = async () => {
+    const canvas = document.getElementsByTagName("canvas")[0];
+    await navigator.clipboard.write([
+      new ClipboardItem({
+        "image/png": b64toBlob(canvas.toDataURL().split(",")[1]),
+      }),
+    ]);
   };
 
   return (
@@ -133,6 +161,11 @@ function App() {
           </div>
           <div className="picker">
             <Picker setCharacter={setCharacter} />
+          </div>
+          <div className="buttons">
+            <Button color="secondary" onClick={copy}>
+              copy
+            </Button>
             <Button color="secondary" onClick={download}>
               download
             </Button>
