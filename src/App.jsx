@@ -5,6 +5,7 @@ import characters from "./characters.json";
 import Slider from "@mui/material/Slider";
 import TextField from "@mui/material/TextField";
 import Button from "@mui/material/Button";
+import Switch from "@mui/material/Switch";
 import Picker from "./components/Picker";
 
 const { ClipboardItem } = window;
@@ -18,6 +19,7 @@ function App() {
   });
   const [fontSize, setFontSize] = useState(characters[character].defaultText.s);
   const [rotate, setRotate] = useState(characters[character].defaultText.r);
+  const [curve, setCurve] = useState(false);
   const [loaded, setLoaded] = useState(false);
   const img = new Image();
 
@@ -38,6 +40,8 @@ function App() {
     setLoaded(true);
   };
 
+  let angle = (Math.PI * text.length) / 7;
+
   const draw = (ctx) => {
     ctx.canvas.width = 296;
     ctx.canvas.height = 256;
@@ -52,10 +56,22 @@ function App() {
       ctx.rotate(rotate / 10);
       ctx.textAlign = "center";
       ctx.strokeStyle = "white";
-      ctx.strokeText(text, 0, 0);
       ctx.fillStyle = characters[character].color;
-      ctx.fillText(text, 0, 0);
-      ctx.restore();
+
+      if (curve) {
+        for (let i = 0; i < text.length; i++) {
+          ctx.rotate(angle / text.length / 2.5);
+          ctx.save();
+          ctx.translate(0, -1 * fontSize * 3.5);
+          ctx.strokeText(text[i], 0, 0);
+          ctx.fillText(text[i], 0, 0);
+          ctx.restore();
+        }
+      } else {
+        ctx.strokeText(text, 0, 0);
+        ctx.fillText(text, 0, 0);
+        ctx.restore();
+      }
     }
   };
 
@@ -101,8 +117,13 @@ function App() {
             <Canvas draw={draw} />
           </div>
           <Slider
-            value={256 - position.y}
-            onChange={(e, v) => setPosition({ ...position, y: 256 - v })}
+            value={curve ? 256 - position.y + fontSize * 3 : 256 - position.y}
+            onChange={(e, v) =>
+              setPosition({
+                ...position,
+                y: curve ? 256 + fontSize * 3 - v : 256 - v,
+              })
+            }
             min={0}
             max={256}
             step={1}
@@ -145,6 +166,14 @@ function App() {
                 max={100}
                 step={1}
                 track={false}
+                color="secondary"
+              />
+            </div>
+            <div>
+              <label>Curve (Beta): </label>
+              <Switch
+                checked={curve}
+                onChange={(e) => setCurve(e.target.checked)}
                 color="secondary"
               />
             </div>

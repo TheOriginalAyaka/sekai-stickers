@@ -24,3 +24,4 @@ yarn-error.log*
 
 # dev
 src/*.dev.jsx
+src/*.old
