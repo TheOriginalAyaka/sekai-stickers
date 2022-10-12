@@ -18,6 +18,7 @@ function App() {
     y: characters[character].defaultText.y,
   });
   const [fontSize, setFontSize] = useState(characters[character].defaultText.s);
+  const [spaceSize, setSpaceSize] = useState(1);
   const [rotate, setRotate] = useState(characters[character].defaultText.r);
   const [curve, setCurve] = useState(false);
   const [loaded, setLoaded] = useState(false);
@@ -47,7 +48,13 @@ function App() {
     ctx.canvas.height = 256;
 
     if (loaded && document.fonts.check("12px YurukaStd")) {
-      ctx.drawImage(img, 0, 0, 296, 256);
+      var hRatio = ctx.canvas.width / img.width    ;
+      var vRatio = ctx.canvas.height / img.height  ;
+      var ratio  = Math.min ( hRatio, vRatio );
+      var centerShift_x = ( ctx.canvas.width - img.width*ratio ) / 2;
+      var centerShift_y = ( ctx.canvas.height - img.height*ratio ) / 2;  
+ctx.clearRect(0,0,ctx.canvas.width, ctx.canvas.height);
+ctx.drawImage(img, 0,0, img.width, img.height,centerShift_x,centerShift_y,img.width*ratio, img.height*ratio);  
       ctx.font = `${fontSize}px YurukaStd`;
       ctx.lineWidth = 9;
       ctx.save();
@@ -57,20 +64,25 @@ function App() {
       ctx.textAlign = "center";
       ctx.strokeStyle = "white";
       ctx.fillStyle = characters[character].color;
-
+      var lines = text.split('\n');
       if (curve) {
-        for (let i = 0; i < text.length; i++) {
-          ctx.rotate(angle / text.length / 2.5);
+        for (let line of lines){
+        for (let i = 0; i < line.length; i++) {
+          ctx.rotate(angle / line.length / 2.5);
           ctx.save();
           ctx.translate(0, -1 * fontSize * 3.5);
-          ctx.strokeText(text[i], 0, 0);
-          ctx.fillText(text[i], 0, 0);
+          ctx.strokeText(line[i], 0, 0);
+          ctx.fillText(line[i], 0, 0);
           ctx.restore();
         }
+      }
       } else {
-        ctx.strokeText(text, 0, 0);
-        ctx.fillText(text, 0, 0);
-        ctx.restore();
+    for (var i = 0,k=0; i<lines.length; i++){
+        ctx.strokeText(lines[i], 0, k);
+        ctx.fillText(lines[i],0, k )
+        k+=spaceSize
+    }
+    ctx.restore();
       }
     }
   };
@@ -170,6 +182,20 @@ function App() {
               />
             </div>
             <div>
+              <label>
+                <nobr>Spacing: </nobr>
+              </label>
+              <Slider
+                value={spaceSize}
+                onChange={(e, v) => setSpaceSize(v)}
+                min={18}
+                max={100}
+                step={1}
+                track={false}
+                color="secondary"
+              />
+            </div>
+            <div>
               <label>Curve (Beta): </label>
               <Switch
                 checked={curve}
@@ -184,6 +210,7 @@ function App() {
               size="small"
               color="secondary"
               value={text}
+              multiline={true}
               fullWidth
               onChange={(e) => setText(e.target.value)}
             />
