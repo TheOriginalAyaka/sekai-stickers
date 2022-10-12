@@ -45,7 +45,7 @@ export default function Picker({ setCharacter }) {
             height: 450,
           }}
           cols={window.innerWidth < 600 ? 3 : 4}
-          rowHeight={120}
+          rowHeight={140}
         >
           {characters.map((c, index) => (
             <ImageListItem
