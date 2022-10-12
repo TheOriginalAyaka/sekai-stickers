@@ -48,7 +48,6 @@ function App() {
     ctx.canvas.height = 256;
 
     if (loaded && document.fonts.check("12px YurukaStd")) {
-      //test 1
       var hRatio = ctx.canvas.width / img.width    ;
       var vRatio = ctx.canvas.height / img.height  ;
       var ratio  = Math.min ( hRatio, vRatio );
@@ -79,7 +78,6 @@ ctx.drawImage(img, 0,0, img.width, img.height,centerShift_x,centerShift_y,img.wi
       }
       } else {
     for (var i = 0,k=0; i<lines.length; i++){
-      console.log(spaceSize)
         ctx.strokeText(lines[i], 0, k);
         ctx.fillText(lines[i],0, k )
         k+=spaceSize
