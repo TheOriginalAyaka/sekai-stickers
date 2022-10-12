@@ -48,7 +48,14 @@ function App() {
     ctx.canvas.height = 256;
 
     if (loaded && document.fonts.check("12px YurukaStd")) {
-      ctx.drawImage(img, 0, 0, 296, 256);
+      //test 1
+      var hRatio = ctx.canvas.width / img.width    ;
+      var vRatio = ctx.canvas.height / img.height  ;
+      var ratio  = Math.min ( hRatio, vRatio );
+      var centerShift_x = ( ctx.canvas.width - img.width*ratio ) / 2;
+      var centerShift_y = ( ctx.canvas.height - img.height*ratio ) / 2;  
+ctx.clearRect(0,0,ctx.canvas.width, ctx.canvas.height);
+ctx.drawImage(img, 0,0, img.width, img.height,centerShift_x,centerShift_y,img.width*ratio, img.height*ratio);  
       ctx.font = `${fontSize}px YurukaStd`;
       ctx.lineWidth = 9;
       ctx.save();
