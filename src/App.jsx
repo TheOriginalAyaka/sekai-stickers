@@ -188,7 +188,7 @@ ctx.drawImage(img, 0,0, img.width, img.height,centerShift_x,centerShift_y,img.wi
               <Slider
                 value={spaceSize}
                 onChange={(e, v) => setSpaceSize(v)}
-                min={1}
+                min={18}
                 max={100}
                 step={1}
                 track={false}
