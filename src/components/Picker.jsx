@@ -56,6 +56,7 @@ export default function Picker({ setCharacter }) {
           vertical: "bottom",
           horizontal: "left",
         }}
+        className="modal"
       >
         <div className="picker-search">
           <TextField

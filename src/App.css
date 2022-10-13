@@ -53,6 +53,10 @@
   gap: 1rem;
 }
 
+.modal > .MuiPopover-paper {
+  overflow: hidden;
+}
+
 .picker-search {
   margin: 0.5rem;
 }
