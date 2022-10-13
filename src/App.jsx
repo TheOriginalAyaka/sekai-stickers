@@ -162,7 +162,7 @@ ctx.drawImage(img, 0,0, img.width, img.height,centerShift_x,centerShift_y,img.wi
                 onChange={(e, v) => setRotate(v)}
                 min={-10}
                 max={10}
-                step={1}
+                step={0.2}
                 track={false}
                 color="secondary"
               />

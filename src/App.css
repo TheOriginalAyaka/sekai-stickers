@@ -53,6 +53,23 @@
   gap: 1rem;
 }
 
+.modal > .MuiPopover-paper {
+  overflow: hidden;
+}
+
+.picker-search {
+  margin: 0.5rem;
+}
+
+.image-grid-wrapper {
+  overflow: auto;
+}
+
+.image-grid {
+  margin: 0.5rem;
+  border-radius: 0.25rem;
+}
+
 .buttons {
   display: flex;
   align-items: center;
@@ -73,4 +90,15 @@
 
 .footer > a:hover {
   color: rgb(255, 255, 255);
+}
+
+::-webkit-scrollbar {
+  width: 0.5rem;
+  height: 0.5rem;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: white;
+  border-radius: 1rem;
+  min-height: 2rem;
 }
