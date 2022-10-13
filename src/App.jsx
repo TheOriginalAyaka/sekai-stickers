@@ -11,6 +11,17 @@ import Picker from "./components/Picker";
 const { ClipboardItem } = window;
 
 function App() {
+  // unregister service worker because skill issue
+  useEffect(() => {
+    if ("serviceWorker" in navigator) {
+      navigator.serviceWorker.getRegistrations().then(function (registrations) {
+        for (let registration of registrations) {
+          registration.unregister();
+        }
+      });
+    }
+  }, []);
+
   const [character, setCharacter] = useState(49);
   const [text, setText] = useState(characters[character].defaultText.text);
   const [position, setPosition] = useState({
@@ -48,13 +59,23 @@ function App() {
     ctx.canvas.height = 256;
 
     if (loaded && document.fonts.check("12px YurukaStd")) {
-      var hRatio = ctx.canvas.width / img.width    ;
-      var vRatio = ctx.canvas.height / img.height  ;
-      var ratio  = Math.min ( hRatio, vRatio );
-      var centerShift_x = ( ctx.canvas.width - img.width*ratio ) / 2;
-      var centerShift_y = ( ctx.canvas.height - img.height*ratio ) / 2;  
-ctx.clearRect(0,0,ctx.canvas.width, ctx.canvas.height);
-ctx.drawImage(img, 0,0, img.width, img.height,centerShift_x,centerShift_y,img.width*ratio, img.height*ratio);  
+      var hRatio = ctx.canvas.width / img.width;
+      var vRatio = ctx.canvas.height / img.height;
+      var ratio = Math.min(hRatio, vRatio);
+      var centerShift_x = (ctx.canvas.width - img.width * ratio) / 2;
+      var centerShift_y = (ctx.canvas.height - img.height * ratio) / 2;
+      ctx.clearRect(0, 0, ctx.canvas.width, ctx.canvas.height);
+      ctx.drawImage(
+        img,
+        0,
+        0,
+        img.width,
+        img.height,
+        centerShift_x,
+        centerShift_y,
+        img.width * ratio,
+        img.height * ratio
+      );
       ctx.font = `${fontSize}px YurukaStd`;
       ctx.lineWidth = 9;
       ctx.save();
@@ -64,25 +85,25 @@ ctx.drawImage(img, 0,0, img.width, img.height,centerShift_x,centerShift_y,img.wi
       ctx.textAlign = "center";
       ctx.strokeStyle = "white";
       ctx.fillStyle = characters[character].color;
-      var lines = text.split('\n');
+      var lines = text.split("\n");
       if (curve) {
-        for (let line of lines){
-        for (let i = 0; i < line.length; i++) {
-          ctx.rotate(angle / line.length / 2.5);
-          ctx.save();
-          ctx.translate(0, -1 * fontSize * 3.5);
-          ctx.strokeText(line[i], 0, 0);
-          ctx.fillText(line[i], 0, 0);
-          ctx.restore();
+        for (let line of lines) {
+          for (let i = 0; i < line.length; i++) {
+            ctx.rotate(angle / line.length / 2.5);
+            ctx.save();
+            ctx.translate(0, -1 * fontSize * 3.5);
+            ctx.strokeText(line[i], 0, 0);
+            ctx.fillText(line[i], 0, 0);
+            ctx.restore();
+          }
         }
-      }
       } else {
-    for (var i = 0,k=0; i<lines.length; i++){
-        ctx.strokeText(lines[i], 0, k);
-        ctx.fillText(lines[i],0, k )
-        k+=spaceSize
-    }
-    ctx.restore();
+        for (var i = 0, k = 0; i < lines.length; i++) {
+          ctx.strokeText(lines[i], 0, k);
+          ctx.fillText(lines[i], 0, k);
+          k += spaceSize;
+        }
+        ctx.restore();
       }
     }
   };
