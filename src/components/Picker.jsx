@@ -5,26 +5,12 @@ import {
   Button,
   TextField,
 } from "@mui/material";
-import { useState, useEffect } from "react";
-import default_characters from "../characters.json";
+import { useState, useMemo } from "react";
+import characters from "../characters.json";
 
 export default function Picker({ setCharacter }) {
   const [anchorEl, setAnchorEl] = useState(null);
   const [search, setSearch] = useState("");
-  const [characters, setCharacters] = useState(default_characters);
-
-  useEffect(() => {
-    setCharacters(
-      default_characters.filter((char) => {
-        const s = search.toLowerCase();
-        return (
-          s === char.id ||
-          char.name.toLowerCase().includes(s) ||
-          char.character.toLowerCase().includes(s)
-        );
-      })
-    );
-  }, [search]);
 
   const handleClick = (event) => {
     setAnchorEl(event.currentTarget);
@@ -36,6 +22,44 @@ export default function Picker({ setCharacter }) {
 
   const open = Boolean(anchorEl);
   const id = open ? "picker" : undefined;
+
+  // Memoize the filtered image list items to avoid recomputing them
+  // at every render
+  const memoizedImageListItems = useMemo(() => {
+    const s = search.toLowerCase();
+    return characters.map((c, index) => {
+      if (s === c.id ||
+        c.name.toLowerCase().includes(s) ||
+        c.character.toLowerCase().includes(s)) {
+        return (
+          <ImageListItem
+            key={index}
+            onClick={() => {
+              handleClose();
+              setCharacter(index);
+            }}
+            sx={{
+              cursor: "pointer",
+              "&:hover": {
+                opacity: 0.5,
+              },
+              "&:active": {
+                opacity: 0.8,
+              },
+            }}
+          >
+            <img
+              src={`/img/${c.img}`}
+              srcSet={`/img/${c.img}`}
+              alt={c.name}
+              loading="lazy"
+            />
+          </ImageListItem>
+        )
+      }
+      return null;
+    })
+  }, [search, setCharacter])
 
   return (
     <div>
@@ -80,31 +104,7 @@ export default function Picker({ setCharacter }) {
             rowHeight={140}
             className="image-grid"
           >
-            {characters.map((c, index) => (
-              <ImageListItem
-                key={index}
-                onClick={() => {
-                  handleClose();
-                  setCharacter(index);
-                }}
-                sx={{
-                  cursor: "pointer",
-                  "&:hover": {
-                    opacity: 0.5,
-                  },
-                  "&:active": {
-                    opacity: 0.8,
-                  },
-                }}
-              >
-                <img
-                  src={`/img/${c.img}`}
-                  srcSet={`/img/${c.img}`}
-                  alt={c.name}
-                  loading="lazy"
-                />
-              </ImageListItem>
-            ))}
+            {memoizedImageListItems}
           </ImageList>
         </div>
       </Popover>
