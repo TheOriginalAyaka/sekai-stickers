@@ -1,0 +1,24 @@
+name: Build website
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    -
+      uses: actions/setup-node@v3
+    -
+      run: npm ci
+    -
+      run: npm run build
+    -
+      uses: JamesIves/github-pages-deploy-action@v4.2.5
+      with:
+        branch: gh-pages
+        folder: build
+        git-config-name: GitHub Actions
+        git-config-email: github-actions[bot]@users.noreply.github.com
