@@ -1,9 +1,6 @@
 name: Build website
 
-on:
-  push:
-    branches:
-      - main
+on: push
 
 jobs:
   build:
@@ -17,6 +14,7 @@ jobs:
       run: npm run build
     -
       uses: JamesIves/github-pages-deploy-action@v4.2.5
+      if: github.ref == 'refs/heads/main'
       with:
         branch: gh-pages
         folder: build
