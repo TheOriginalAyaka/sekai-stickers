@@ -252,6 +252,10 @@ function App() {
           <a href="https://github.com/theoriginalayaka/sekai-stickers">
             GitHub
           </a>
+          {/*powered by vercel */}
+          <a href="https://vercel.com?utm_source=theoriginalayaka&utm_campaign=oss">
+            <img src="/powered-by-vercel.svg" alt="powered by vercel" />
+          </a>
         </div>
       </div>
     </div>

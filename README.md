@@ -9,3 +9,7 @@ help is welcome, got some skill issues so dont judge me ![img](https://cdn.disco
 -cropped images by Modder4869#4818 on discord
 
 -website by Ayaka#4715 on discord
+
+### hosting
+
+[![powered by Vercel](https://www.datocms-assets.com/31049/1618983297-powered-by-vercel.svg)](https://vercel.com?utm_source=theoriginalayaka&utm_campaign=oss)

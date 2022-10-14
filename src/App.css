@@ -81,11 +81,16 @@
 .footer {
   margin-top: 2rem;
   font-family: "YurukaStd";
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
 
 .footer > a {
   color: rgb(199, 199, 199);
   text-decoration: none;
+  margin-bottom: 0.5rem;
 }
 
 .footer > a:hover {
