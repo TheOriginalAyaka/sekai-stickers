@@ -15,6 +15,10 @@ jobs:
     -
       run: npm run build
     -
+      uses: actions/upload-artifact@v3
+      with:
+        path: build
+    -
       uses: JamesIves/github-pages-deploy-action@v4.2.5
       if: github.ref == 'refs/heads/main'
       with:
