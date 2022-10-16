@@ -7,6 +7,7 @@ import TextField from "@mui/material/TextField";
 import Button from "@mui/material/Button";
 import Switch from "@mui/material/Switch";
 import Picker from "./components/Picker";
+import Info from "./components/Info";
 
 const { ClipboardItem } = window;
 
@@ -21,6 +22,16 @@ function App() {
       });
     }
   }, []);
+
+  const [infoOpen, setInfoOpen] = useState(false);
+
+  const handleClickOpen = () => {
+    setInfoOpen(true);
+  };
+
+  const handleClose = () => {
+    setInfoOpen(false);
+  };
 
   const [character, setCharacter] = useState(49);
   const [text, setText] = useState(characters[character].defaultText.text);
@@ -144,6 +155,7 @@ function App() {
 
   return (
     <div className="App">
+      <Info open={infoOpen} handleClose={handleClose} />
       <div className="container">
         <div className="vertical">
           <div className="canvas">
@@ -167,6 +179,7 @@ function App() {
         </div>
         <div className="horizontal">
           <Slider
+            className="slider-horizontal"
             value={position.x}
             onChange={(e, v) => setPosition({ ...position, x: v })}
             min={0}
@@ -249,13 +262,9 @@ function App() {
           </div>
         </div>
         <div className="footer">
-          <a href="https://github.com/theoriginalayaka/sekai-stickers">
-            GitHub
-          </a>
-          {/*powered by vercel */}
-          <a href="https://vercel.com?utm_source=theoriginalayaka&utm_campaign=oss">
-            <img src="/powered-by-vercel.svg" alt="powered by vercel" />
-          </a>
+          <Button color="secondary" onClick={handleClickOpen}>
+            Info
+          </Button>
         </div>
       </div>
     </div>

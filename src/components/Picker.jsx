@@ -28,9 +28,11 @@ export default function Picker({ setCharacter }) {
   const memoizedImageListItems = useMemo(() => {
     const s = search.toLowerCase();
     return characters.map((c, index) => {
-      if (s === c.id ||
+      if (
+        s === c.id ||
         c.name.toLowerCase().includes(s) ||
-        c.character.toLowerCase().includes(s)) {
+        c.character.toLowerCase().includes(s)
+      ) {
         return (
           <ImageListItem
             key={index}
@@ -55,11 +57,11 @@ export default function Picker({ setCharacter }) {
               loading="lazy"
             />
           </ImageListItem>
-        )
+        );
       }
       return null;
-    })
-  }, [search, setCharacter])
+    });
+  }, [search, setCharacter]);
 
   return (
     <div>
@@ -84,7 +86,7 @@ export default function Picker({ setCharacter }) {
       >
         <div className="picker-search">
           <TextField
-            label="Search"
+            label="Search character"
             size="small"
             color="secondary"
             value={search}

@@ -25,8 +25,12 @@
 
 .horizontal {
   width: 296px;
-  margin-left: -30px;
+  /* margin-left: -30px; */
 
+}
+
+.slider-horizontal {
+  margin-left: -30px;
 }
 
 .settings {
@@ -87,7 +91,7 @@
   flex-direction: column;
 }
 
-.footer > a {
+/* .footer > a {
   color: rgb(199, 199, 199);
   text-decoration: none;
   margin-bottom: 0.5rem;
@@ -95,7 +99,7 @@
 
 .footer > a:hover {
   color: rgb(255, 255, 255);
-}
+} */
 
 ::-webkit-scrollbar {
   width: 0.5rem;
