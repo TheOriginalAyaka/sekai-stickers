@@ -8,18 +8,17 @@ import Button from "@mui/material/Button";
 import Switch from "@mui/material/Switch";
 import Picker from "./components/Picker";
 import Info from "./components/Info";
+import getConfiguration from "./utils/config";
+import log from "./utils/log";
 
 const { ClipboardItem } = window;
 
 function App() {
-  // unregister service worker because skill issue
   useEffect(() => {
-    if ("serviceWorker" in navigator) {
-      navigator.serviceWorker.getRegistrations().then(function (registrations) {
-        for (let registration of registrations) {
-          registration.unregister();
-        }
-      });
+    try {
+      getConfiguration();
+    } catch (error) {
+      console.log(error);
     }
   }, []);
 
@@ -125,6 +124,7 @@ function App() {
     link.download = `${characters[character].name}_st.ayaka.one.png`;
     link.href = canvas.toDataURL();
     link.click();
+    log(characters[character].id, characters[character].name, "download");
   };
 
   function b64toBlob(b64Data, contentType = null, sliceSize = null) {
@@ -151,6 +151,7 @@ function App() {
         "image/png": b64toBlob(canvas.toDataURL().split(",")[1]),
       }),
     ]);
+    log(characters[character].id, characters[character].name, "copy");
   };
 
   return (
