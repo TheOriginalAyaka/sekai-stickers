@@ -55,6 +55,7 @@ function App() {
     setRotate(characters[character].defaultText.r);
     setFontSize(characters[character].defaultText.s);
     setLoaded(false);
+    setColor(characters[character].color);
   }, [character]);
 
   img.src = "/img/" + characters[character].img;
