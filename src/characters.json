@@ -1,9 +1,9 @@
 [
     {
         "id": "3",
-        "name": "Airi 01",
-        "character": "airi",
-        "img": "airi/Airi_01.png",
+        "name": "Belial 01",
+        "character": "Belial",
+        "img": "belial/belial_01.webp",
         "color": "#FB8AAC",
         "defaultText": {
             "text": "keep up",
@@ -15,9 +15,9 @@
     },
     {
         "id": "4",
-        "name": "Airi 02",
-        "character": "airi",
-        "img": "airi/Airi_02.png",
+        "name": "Belial Pants Grab",
+        "character": "Belial",
+        "img": "belial/belialpantsgrab.png",
         "color": "#FB8AAC",
         "defaultText": {
             "text": "nice to meet ya",
@@ -29,9 +29,9 @@
     },
     {
         "id": "5",
-        "name": "Airi 03",
-        "character": "airi",
-        "img": "airi/Airi_03.png",
+        "name": "Cag 01",
+        "character": "cag",
+        "img": "cag/cag_01.png",
         "color": "#FB8AAC",
         "defaultText": {
             "text": "keep at it!",
@@ -43,9 +43,9 @@
     },
     {
         "id": "6",
-        "name": "Airi 04",
-        "character": "airi",
-        "img": "airi/Airi_04.png",
+        "name": "Cag 02",
+        "character": "cag",
+        "img": "cag/cag_02.webp",
         "color": "#FB8AAC",
         "defaultText": {
             "text": "something",
@@ -57,9 +57,9 @@
     },
     {
         "id": "8",
-        "name": "Airi 06",
-        "character": "airi",
-        "img": "airi/Airi_06.png",
+        "name": "Cag 03",
+        "character": "cag",
+        "img": "cag/cag_03.png",
         "color": "#FB8AAC",
         "defaultText": {
             "text": "something",
@@ -71,9 +71,9 @@
     },
     {
         "id": "9",
-        "name": "Airi 07",
-        "character": "airi",
-        "img": "airi/Airi_07.png",
+        "name": "Cag 04",
+        "character": "cag",
+        "img": "cag/cag_04.webp",
         "color": "#FB8AAC",
         "defaultText": {
             "text": "something",
@@ -85,9 +85,9 @@
     },
     {
         "id": "10",
-        "name": "Airi 08",
-        "character": "airi",
-        "img": "airi/Airi_08.png",
+        "name": "Cag 05",
+        "character": "cag",
+        "img": "cag/cag_05.webp",
         "color": "#FB8AAC",
         "defaultText": {
             "text": "something",
@@ -99,9 +99,9 @@
     },
     {
         "id": "11",
-        "name": "Airi 09",
-        "character": "airi",
-        "img": "airi/Airi_09.png",
+        "name": "cag 06",
+        "character": "cag",
+        "img": "cag/cag_06.webp",
         "color": "#FB8AAC",
         "defaultText": {
             "text": "something",
@@ -113,9 +113,9 @@
     },
     {
         "id": "13",
-        "name": "Airi 11",
-        "character": "airi",
-        "img": "airi/Airi_11.png",
+        "name": "caggers",
+        "character": "cag",
+        "img": "cag/caggers.webp",
         "color": "#FB8AAC",
         "defaultText": {
             "text": "something",
@@ -127,9 +127,9 @@
     },
     {
         "id": "14",
-        "name": "Airi 12",
-        "character": "airi",
-        "img": "airi/Airi_12.png",
+        "name": "charlotta no",
+        "character": "charlotta",
+        "img": "charlotta/charlotta_01.png",
         "color": "#FB8AAC",
         "defaultText": {
             "text": "something",
@@ -141,9 +141,9 @@
     },
     {
         "id": "15",
-        "name": "Airi 13",
-        "character": "airi",
-        "img": "airi/Airi_13.png",
+        "name": "djeeta 01",
+        "character": "djeeta",
+        "img": "djeeta/djeeta_01.png",
         "color": "#FB8AAC",
         "defaultText": {
             "text": "something",
@@ -155,9 +155,9 @@
     },
     {
         "id": "16",
-        "name": "Airi 14",
-        "character": "airi",
-        "img": "airi/Airi_14.png",
+        "name": "djeeta 02",
+        "character": "djeeta",
+        "img": "djeeta/djeeta_02.png",
         "color": "#FB8AAC",
         "defaultText": {
             "text": "something",
@@ -169,9 +169,9 @@
     },
     {
         "id": "18",
-        "name": "Airi 16",
-        "character": "airi",
-        "img": "airi/Airi_16.png",
+        "name": "djeeta 03",
+        "character": "djeeta",
+        "img": "djeeta/djeeta_03.webp",
         "color": "#FB8AAC",
         "defaultText": {
             "text": "something",
@@ -183,9 +183,9 @@
     },
     {
         "id": "19",
-        "name": "Akito 01",
-        "character": "akito",
-        "img": "akito/Akito_01.png",
+        "name": "djeeta 04",
+        "character": "djeeta",
+        "img": "djeeta/djeeta_04.webp",
         "color": "#FF7722",
         "defaultText": {
             "text": "something",
@@ -197,9 +197,9 @@
     },
     {
         "id": "20",
-        "name": "Akito 02",
-        "character": "akito",
-        "img": "akito/Akito_02.png",
+        "name": " djeeta 05",
+        "character": "djeeta",
+        "img": "djeeta/djeeta_05.webp",
         "color": "#FF7722",
         "defaultText": {
             "text": "something",
@@ -211,9 +211,9 @@
     },
     {
         "id": "21",
-        "name": "Akito 03",
-        "character": "akito",
-        "img": "akito/Akito_03.png",
+        "name": "djeeta bedge",
+        "character": "djeeta",
+        "img": "djeeta/djeeta_bedge.webp",
         "color": "#FF7722",
         "defaultText": {
             "text": "something",
@@ -225,9 +225,9 @@
     },
     {
         "id": "22",
-        "name": "Akito 04",
-        "character": "akito",
-        "img": "akito/Akito_04.png",
+        "name": "djeeta hands",
+        "character": "djeeta",
+        "img": "djeeta/djeeta_hands.webp",
         "color": "#FF7722",
         "defaultText": {
             "text": "something",
@@ -239,9 +239,9 @@
     },
     {
         "id": "24",
-        "name": "Akito 06",
-        "character": "akito",
-        "img": "akito/Akito_06.png",
+        "name": "Djeeta Horni",
+        "character": "djeeta",
+        "img": "djeeta/djeeta_horni.webp",
         "color": "#FF7722",
         "defaultText": {
             "text": "something",
@@ -253,9 +253,9 @@
     },
     {
         "id": "25",
-        "name": "Akito 07",
-        "character": "akito",
-        "img": "akito/Akito_07.png",
+        "name": "Djeeta Sad",
+        "character": "djeeta",
+        "img": "djeeta/djeeta_sad.webp",
         "color": "#FF7722",
         "defaultText": {
             "text": "something",
@@ -267,9 +267,9 @@
     },
     {
         "id": "26",
-        "name": "Akito 08",
-        "character": "akito",
-        "img": "akito/Akito_08.png",
+        "name": "djeeta tired",
+        "character": "djeeta",
+        "img": "djeeta/djeeta_tired.png",
         "color": "#FF7722",
         "defaultText": {
             "text": "something",
@@ -281,10 +281,10 @@
     },
     {
         "id": "27",
-        "name": "Akito 09",
-        "character": "akito",
-        "img": "akito/Akito_09.png",
-        "color": "#FF7722",
+        "name": "Eustace Points",
+        "character": "eustace",
+        "img": "eustace/eustace_01.png",
+        "color": "#000080",
         "defaultText": {
             "text": "something",
             "x": 148,
@@ -295,9 +295,9 @@
     },
     {
         "id": "29",
-        "name": "Akito 11",
-        "character": "akito",
-        "img": "akito/Akito_11.png",
+        "name": "ferry 01",
+        "character": "ferry",
+        "img": "ferry/ferry_01.webp",
         "color": "#FF7722",
         "defaultText": {
             "text": "something",
@@ -309,9 +309,9 @@
     },
     {
         "id": "30",
-        "name": "Akito 12",
-        "character": "akito",
-        "img": "akito/Akito_12.png",
+        "name": "Ferry 02",
+        "character": "ferry",
+        "img": "ferry/ferry_02.png",
         "color": "#FF7722",
         "defaultText": {
             "text": "something",
@@ -323,9 +323,9 @@
     },
     {
         "id": "31",
-        "name": "Akito 13",
-        "character": "akito",
-        "img": "akito/Akito_13.png",
+        "name": "gran 01",
+        "character": "gran",
+        "img": "gran/gran_01.webp",
         "color": "#FF7722",
         "defaultText": {
             "text": "something",
@@ -337,9 +337,9 @@
     },
     {
         "id": "32",
-        "name": "Akito 14",
-        "character": "akito",
-        "img": "akito/Akito_14.png",
+        "name": "katalina 01",
+        "character": "katalina",
+        "img": "katalina/katalina_01.png",
         "color": "#FF7722",
         "defaultText": {
             "text": "something",
@@ -351,9 +351,9 @@
     },
     {
         "id": "33",
-        "name": "Akito 16",
-        "character": "akito",
-        "img": "akito/Akito_16.png",
+        "name": "Katalina 02",
+        "character": "katalina",
+        "img": "katalina/katalina_02.png",
         "color": "#FF7722",
         "defaultText": {
             "text": "something",
@@ -365,9 +365,9 @@
     },
     {
         "id": "34",
-        "name": "An 01",
-        "character": "an",
-        "img": "an/An_01.png",
+        "name": "Katalina 03",
+        "character": "katalina",
+        "img": "katalina/katalina_03.webp",
         "color": "#00BADC",
         "defaultText": {
             "text": "something",
@@ -379,9 +379,9 @@
     },
     {
         "id": "35",
-        "name": "An 02",
-        "character": "an",
-        "img": "an/An_02.png",
+        "name": "katalina 04",
+        "character": "katalina",
+        "img": "katalina/katalina_04.webp",
         "color": "#00BADC",
         "defaultText": {
             "text": "something",
@@ -393,9 +393,9 @@
     },
     {
         "id": "36",
-        "name": "An 03",
-        "character": "an",
-        "img": "an/An_03.png",
+        "name": "lyria 01",
+        "character": "lyria",
+        "img": "lyria/lyria_01.png",
         "color": "#00BADC",
         "defaultText": {
             "text": "something",
@@ -407,9 +407,9 @@
     },
     {
         "id": "37",
-        "name": "An 04",
-        "character": "an",
-        "img": "an/An_04.png",
+        "name": "lyria 02",
+        "character": "lyria",
+        "img": "lyria/lyria_02.png",
         "color": "#00BADC",
         "defaultText": {
             "text": "something",
@@ -421,9 +421,9 @@
     },
     {
         "id": "39",
-        "name": "An 06",
-        "character": "an",
-        "img": "an/An_06.png",
+        "name": "lyria 03",
+        "character": "lyria",
+        "img": "lyria/lyria_03.png",
         "color": "#00BADC",
         "defaultText": {
             "text": "something",
@@ -435,9 +435,9 @@
     },
     {
         "id": "40",
-        "name": "An 07",
-        "character": "an",
-        "img": "an/An_07.png",
+        "name": "lyria 04",
+        "character": "lyria",
+        "img": "lyria/lyria_04.png",
         "color": "#00BADC",
         "defaultText": {
             "text": "something",
@@ -449,9 +449,9 @@
     },
     {
         "id": "41",
-        "name": "An 08",
-        "character": "an",
-        "img": "an/An_08.png",
+        "name": "metera angry",
+        "character": "metera",
+        "img": "metera/metera_angry.webp",
         "color": "#00BADC",
         "defaultText": {
             "text": "something",
@@ -463,9 +463,9 @@
     },
     {
         "id": "42",
-        "name": "An 09",
-        "character": "an",
-        "img": "an/An_09.png",
+        "name": "narm 01",
+        "character": "narm",
+        "img": "narm/narm_01.webp",
         "color": "#00BADC",
         "defaultText": {
             "text": "something",
@@ -477,9 +477,9 @@
     },
     {
         "id": "44",
-        "name": "An 11",
-        "character": "an",
-        "img": "an/An_11.png",
+        "name": "narm woke",
+        "character": "narm",
+        "img": "narm/narm_woke.webp",
         "color": "#00BADC",
         "defaultText": {
             "text": "something",
@@ -491,9 +491,9 @@
     },
     {
         "id": "45",
-        "name": "An 12",
-        "character": "an",
-        "img": "an/An_12.png",
+        "name": "narm negative",
+        "character": "narm",
+        "img": "narm/narmnegative.png",
         "color": "#00BADC",
         "defaultText": {
             "text": "something",
@@ -505,9 +505,9 @@
     },
     {
         "id": "46",
-        "name": "An 13",
-        "character": "an",
-        "img": "an/An_13.png",
+        "name": "narm nuetral",
+        "character": "narm",
+        "img": "narm/narmnuetral.png",
         "color": "#00BADC",
         "defaultText": {
             "text": "something",
@@ -519,9 +519,9 @@
     },
     {
         "id": "47",
-        "name": "An 14",
-        "character": "an",
-        "img": "an/An_14.png",
+        "name": "narm positive",
+        "character": "narm",
+        "img": "narm/narmpositive.webp",
         "color": "#00BADC",
         "defaultText": {
             "text": "something",
@@ -533,9 +533,9 @@
     },
     {
         "id": "49",
-        "name": "An 16",
-        "character": "an",
-        "img": "an/An_16.png",
+        "name": "rosetta 01",
+        "character": "rosetta",
+        "img": "rosetta/rosetta_01.png",
         "color": "#00BADC",
         "defaultText": {
             "text": "something",
@@ -547,9 +547,9 @@
     },
     {
         "id": "50",
-        "name": "Emu 01",
-        "character": "emu",
-        "img": "emu/Emu_01.png",
+        "name": "rosetta 02",
+        "character": "rosetta",
+        "img": "rosetta/rosetta_02.png",
         "color": "#FF66BB",
         "defaultText": {
             "text": "something",
@@ -561,9 +561,9 @@
     },
     {
         "id": "51",
-        "name": "Emu 02",
-        "character": "emu",
-        "img": "emu/Emu_02.png",
+        "name": "seox 01",
+        "character": "seox",
+        "img": "six/six_01.webp",
         "color": "#FF66BB",
         "defaultText": {
             "text": "something",
@@ -575,9 +575,9 @@
     },
     {
         "id": "52",
-        "name": "Emu 03",
-        "character": "emu",
-        "img": "emu/Emu_03.png",
+        "name": "vyrn 01",
+        "character": "vyrn",
+        "img": "vyrn/vyrn_01.png",
         "color": "#FF66BB",
         "defaultText": {
             "text": "something",
@@ -589,9 +589,9 @@
     },
     {
         "id": "53",
-        "name": "Emu 04",
-        "character": "emu",
-        "img": "emu/Emu_04.png",
+        "name": "vyrn 07",
+        "character": "vyrn",
+        "img": "vyrn/vryn_07.webp",
         "color": "#FF66BB",
         "defaultText": {
             "text": "something",
@@ -603,9 +603,9 @@
     },
     {
         "id": "55",
-        "name": "Emu 06",
-        "character": "emu",
-        "img": "emu/Emu_06.png",
+        "name": "vyrn 02",
+        "character": "vyrn",
+        "img": "vyrn/vyrn_02.png",
         "color": "#FF66BB",
         "defaultText": {
             "text": "something",
@@ -617,9 +617,9 @@
     },
     {
         "id": "56",
-        "name": "Emu 07",
-        "character": "emu",
-        "img": "emu/Emu_07.png",
+        "name": "vyrn 03",
+        "character": "vyrn",
+        "img": "vyrn/vyrn_03.png",
         "color": "#FF66BB",
         "defaultText": {
             "text": "something",
@@ -631,9 +631,9 @@
     },
     {
         "id": "57",
-        "name": "Emu 08",
-        "character": "emu",
-        "img": "emu/Emu_08.png",
+        "name": "vyrn 04",
+        "character": "vyrn",
+        "img": "vyrn/vyrn_04.png",
         "color": "#FF66BB",
         "defaultText": {
             "text": "something",
@@ -645,9 +645,9 @@
     },
     {
         "id": "58",
-        "name": "Emu 09",
-        "character": "emu",
-        "img": "emu/Emu_09.png",
+        "name": "vyrn 05",
+        "character": "vyrn",
+        "img": "vyrn/vyrn_05.png",
         "color": "#FF66BB",
         "defaultText": {
             "text": "something",
@@ -659,9 +659,9 @@
     },
     {
         "id": "60",
-        "name": "Emu 11",
-        "character": "emu",
-        "img": "emu/Emu_11.png",
+        "name": "vyrn 06",
+        "character": "vyrn",
+        "img": "vyrn/vyrn_06.png",
         "color": "#FF66BB",
         "defaultText": {
             "text": "something",
@@ -673,9 +673,9 @@
     },
     {
         "id": "61",
-        "name": "Emu 12",
-        "character": "emu",
-        "img": "emu/Emu_12.png",
+        "name": "yggy 01",
+        "character": "yggy",
+        "img": "yggy/yggy_01.webp",
         "color": "#FF66BB",
         "defaultText": {
             "text": "something",
@@ -687,9 +687,9 @@
     },
     {
         "id": "62",
-        "name": "Emu 13",
-        "character": "emu",
-        "img": "emu/Emu_13.png",
+        "name": "yggy 02",
+        "character": "yggy",
+        "img": "yggy/yggy_02.png",
         "color": "#FF66BB",
         "defaultText": {
             "text": "Wonderhoy!",
@@ -701,9 +701,9 @@
     },
     {
         "id": "63",
-        "name": "Emu 14",
-        "character": "emu",
-        "img": "emu/Emu_14.png",
+        "name": "yuel 01",
+        "character": "yuel",
+        "img": "yuel/yuel_01.png",
         "color": "#FF66BB",
         "defaultText": {
             "text": "something",
@@ -715,9 +715,9 @@
     },
     {
         "id": "65",
-        "name": "Emu 16",
-        "character": "emu",
-        "img": "emu/Emu_16.png",
+        "name": "yuel 02",
+        "character": "yuel",
+        "img": "yuel/yuel_02.webp",
         "color": "#FF66BB",
         "defaultText": {
             "text": "something",
@@ -729,9 +729,9 @@
     },
     {
         "id": "66",
-        "name": "Ena 01",
-        "character": "ena",
-        "img": "ena/Ena_01.png",
+        "name": "yuel sad",
+        "character": "yuel",
+        "img": "yuel/yuel_sad.webp",
         "color": "#B18F6C",
         "defaultText": {
             "text": "something",
@@ -743,9 +743,9 @@
     },
     {
         "id": "67",
-        "name": "Ena 02",
+        "name": "zeta 01",
         "character": "ena",
-        "img": "ena/Ena_02.png",
+        "img": "zeta/zeta_01.webp",
         "color": "#B18F6C",
         "defaultText": {
             "text": "something",
@@ -757,9 +757,9 @@
     },
     {
         "id": "68",
-        "name": "Ena 03",
-        "character": "ena",
-        "img": "ena/Ena_03.png",
+        "name": "zooey 01",
+        "character": "zooey",
+        "img": "zooey/zooey_01.webp",
         "color": "#B18F6C",
         "defaultText": {
             "text": "something",
@@ -771,9 +771,9 @@
     },
     {
         "id": "69",
-        "name": "Ena 04",
-        "character": "ena",
-        "img": "ena/Ena_04.png",
+        "name": "katalina bop",
+        "character": "katalina",
+        "img": "katalina/katalina_bop.png",
         "color": "#B18F6C",
         "defaultText": {
             "text": "something",
