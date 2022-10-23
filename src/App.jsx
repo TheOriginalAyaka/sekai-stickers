@@ -42,6 +42,7 @@ function App() {
   const [spaceSize, setSpaceSize] = useState(1);
   const [rotate, setRotate] = useState(characters[character].defaultText.r);
   const [curve, setCurve] = useState(false);
+  const [color, setColor] = useState(characters[character].color);
   const [loaded, setLoaded] = useState(false);
   const img = new Image();
 
@@ -94,7 +95,7 @@ function App() {
       ctx.rotate(rotate / 10);
       ctx.textAlign = "center";
       ctx.strokeStyle = "white";
-      ctx.fillStyle = characters[character].color;
+      ctx.fillStyle = color;
       var lines = text.split("\n");
       if (curve) {
         for (let line of lines) {
@@ -238,6 +239,10 @@ function App() {
                 color="secondary"
               />
             </div>
+	    <div>
+	      <label>Color: </label>
+	      <input type="color" value={color} onChange={(e) => setColor(e.target.value)} />
+	    </div>
           </div>
           <div className="text">
             <TextField
