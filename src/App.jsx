@@ -86,7 +86,7 @@ function App() {
         img.width * ratio,
         img.height * ratio
       );
-      ctx.font = `${fontSize}px YurukaStd`;
+      ctx.font = `${fontSize}px YurukaStd, SSFangTangTi`;
       ctx.lineWidth = 9;
       ctx.save();
 
