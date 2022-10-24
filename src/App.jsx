@@ -38,6 +38,7 @@ function App() {
     x: characters[character].defaultText.x,
     y: characters[character].defaultText.y,
   });
+  const [color, setColor] = useState(characters[character].color);
   const [fontSize, setFontSize] = useState(characters[character].defaultText.s);
   const [spaceSize, setSpaceSize] = useState(1);
   const [rotate, setRotate] = useState(characters[character].defaultText.r);

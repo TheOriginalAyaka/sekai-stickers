@@ -9,3 +9,13 @@ Help is welcome, got some skill issues so dont judge me  ![img](https://cdn.disc
 -Cropped images by [Modder4869](https://github.com/Modder4869)
 
 -Website by [TheOriginalAyaka](https://github.com/TheOriginalAyaka)
+
+
+-Updates and GBVS stickers by Mars(github.com/mars-g)
+
+
+
+
+## Development
+Install packages `npm install`
+Run via node start script `npm start`
