@@ -111,3 +111,12 @@
   border-radius: 1rem;
   min-height: 2rem;
 }
+
+.counter {
+  left: 0;
+  top: 0;
+  text-align: left;
+  color: white;
+  font-weight: bold;
+  font-family: YurukaStd;
+}

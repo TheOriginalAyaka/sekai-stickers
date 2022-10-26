@@ -14,13 +14,21 @@ import log from "./utils/log";
 const { ClipboardItem } = window;
 
 function App() {
+  const [config, setConfig] = useState(null);
+
+  // using this to trigger the useEffect because lazy to think of a better way
+  const [rand, setRand] = useState(0);
   useEffect(() => {
     try {
-      getConfiguration();
+      const data = async () => {
+        const res = await getConfiguration();
+        setConfig(res);
+      };
+      data();
     } catch (error) {
       console.log(error);
     }
-  }, []);
+  }, [rand]);
 
   const [infoOpen, setInfoOpen] = useState(false);
 
@@ -118,13 +126,14 @@ function App() {
     }
   };
 
-  const download = () => {
+  const download = async () => {
     const canvas = document.getElementsByTagName("canvas")[0];
     const link = document.createElement("a");
     link.download = `${characters[character].name}_st.ayaka.one.png`;
     link.href = canvas.toDataURL();
     link.click();
-    log(characters[character].id, characters[character].name, "download");
+    await log(characters[character].id, characters[character].name, "download");
+    setRand(rand + 1);
   };
 
   function b64toBlob(b64Data, contentType = null, sliceSize = null) {
@@ -151,12 +160,16 @@ function App() {
         "image/png": b64toBlob(canvas.toDataURL().split(",")[1]),
       }),
     ]);
-    log(characters[character].id, characters[character].name, "copy");
+    await log(characters[character].id, characters[character].name, "copy");
+    setRand(rand + 1);
   };
 
   return (
     <div className="App">
       <Info open={infoOpen} handleClose={handleClose} />
+      <div className="counter">
+        Total Stickers you made: {config?.total || "Not available"}
+      </div>
       <div className="container">
         <div className="vertical">
           <div className="canvas">
