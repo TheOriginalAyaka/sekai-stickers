@@ -29,7 +29,9 @@
 
 ## <img src="https://cdn.discordapp.com/emojis/852881450667081728.gif" width="20px" height="20px"> 》Feature
 - [x] Wonderhoy!
-- [x] (Please add some features descritions)
+- [x] Download/Copy stickers
+- [ ] Social share button
+- [ ] Global stickers made counter 
 
 
 ## ✨》Credits
