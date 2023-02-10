@@ -49,7 +49,7 @@
 </p>
 
 ## 🔐 》License
-Distributed under the MIT License. See [`LICENSE`](https://github.com/TheOriginalAyaka/sekai-stickers/blob/main/LICENSE) for more information.
+Distributed under the MIT License. See [`LICENSE`](https://github.com/TheOriginalAyaka/sekai-stickers/blob/main/LICENCE) for more information.
 
 [contributors-shield]: https://img.shields.io/github/contributors/TheOriginalAyaka/sekai-stickers.svg?style=for-the-badge
 [contributors-url]: https://github.com/TheOriginalAyaka/sekai-stickers/graphs/contributors
