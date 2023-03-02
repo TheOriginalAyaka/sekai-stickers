@@ -166,7 +166,7 @@ function App() {
 
   return (
     <div className="App">
-      <Info open={infoOpen} handleClose={handleClose} />
+      <Info open={infoOpen} handleClose={handleClose} config={config} />
       <div className="counter">
         Total Stickers you made: {config?.total || "Not available"}
       </div>

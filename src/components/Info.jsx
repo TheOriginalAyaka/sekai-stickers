@@ -11,7 +11,7 @@ import ListItemAvatar from "@mui/material/ListItemAvatar";
 import Avatar from "@mui/material/Avatar";
 import Typography from "@mui/material/Typography";
 
-export default function Info({ open, handleClose }) {
+export default function Info({ open, handleClose, config }) {
   return (
     <div>
       <Dialog
@@ -118,6 +118,13 @@ export default function Info({ open, handleClose }) {
                 <ListItemText primary="GitHub" secondary="Source Code" />
               </ListItem>
             </List>
+            <Typography variant="h6" component="h3">
+              Total stickers made using the app:
+              <br />
+              {config?.global
+                ? config?.global.toLocaleString() + " Sticker"
+                : "not available"}
+            </Typography>
           </DialogContentText>
         </DialogContent>
         <DialogActions>
