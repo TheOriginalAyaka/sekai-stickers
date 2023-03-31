@@ -129,7 +129,7 @@ function App() {
   const download = async () => {
     const canvas = document.getElementsByTagName("canvas")[0];
     const link = document.createElement("a");
-    link.download = `${characters[character].name}_st.ayaka.one.png`;
+    link.download = `${characters[character].name}_st.ayaka.one.webp`;
     link.href = canvas.toDataURL();
     link.click();
     await log(characters[character].id, characters[character].name, "download");
@@ -137,7 +137,7 @@ function App() {
   };
 
   function b64toBlob(b64Data, contentType = null, sliceSize = null) {
-    contentType = contentType || "image/png";
+    contentType = contentType || "image/webp";
     sliceSize = sliceSize || 512;
     let byteCharacters = atob(b64Data);
     let byteArrays = [];
@@ -157,7 +157,7 @@ function App() {
     const canvas = document.getElementsByTagName("canvas")[0];
     await navigator.clipboard.write([
       new ClipboardItem({
-        "image/png": b64toBlob(canvas.toDataURL().split(",")[1]),
+        "image/webp": b64toBlob(canvas.toDataURL().split(",")[1]),
       }),
     ]);
     await log(characters[character].id, characters[character].name, "copy");
