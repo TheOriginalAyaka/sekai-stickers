@@ -24,6 +24,10 @@
 
 <!-- ABOUT THE PROJECT -->
 
+## 🤖》Discord Bot
+
+### Sekai Stickers is also a discord bot, you can invite it [here](https://discord.com/api/oauth2/authorize?client_id=1092869678499631197&permissions=8797166798848&scope=bot)
+
 ## <img src="https://cdn.discordapp.com/emojis/859424401186095114.png" width="20px" height="20px"> 》Description
 
 [![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=TheOriginalAyaka&repo=sekai-stickers&theme=tokyonight&show_owner=true&hide_border=true)](https://github.com/TheOriginalAyaka/sekai-stickers)

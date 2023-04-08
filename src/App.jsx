@@ -10,11 +10,13 @@ import Picker from "./components/Picker";
 import Info from "./components/Info";
 import getConfiguration from "./utils/config";
 import log from "./utils/log";
+import { bannerViewed, setBannerViewed } from "./utils/banner";
 
 const { ClipboardItem } = window;
 
 function App() {
   const [config, setConfig] = useState(null);
+  const [bannerView, setBannerView] = useState(bannerViewed());
 
   // using this to trigger the useEffect because lazy to think of a better way
   const [rand, setRand] = useState(0);
@@ -167,6 +169,37 @@ function App() {
   return (
     <div className="App">
       <Info open={infoOpen} handleClose={handleClose} config={config} />
+      {!bannerView && (
+        <div className="bannercontainer">
+          <div className="bannermessage">
+            <p>
+              Sekai Stickers is now on Discord! Introducing our new bot - add it
+              to your server for even more fun.
+            </p>
+            <a
+              href="https://discord.com/api/oauth2/authorize?client_id=1092869678499631197&permissions=8797166798848&scope=bot"
+              className="bannerbutton"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Invite <span>&rarr;</span>
+            </a>
+          </div>
+          <div className="bannerdismiss">
+            <button
+              type="button"
+              onClick={() => {
+                setBannerViewed();
+                setBannerView(true);
+              }}
+            >
+              <svg viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                <path d="M6.28 5.22a.75.75 0 00-1.06 1.06L8.94 10l-3.72 3.72a.75.75 0 101.06 1.06L10 11.06l3.72 3.72a.75.75 0 101.06-1.06L11.06 10l3.72-3.72a.75.75 0 00-1.06-1.06L10 8.94 6.28 5.22z" />
+              </svg>
+            </button>
+          </div>
+        </div>
+      )}
       <div className="counter">
         Total Stickers you made: {config?.total || "Not available"}
       </div>

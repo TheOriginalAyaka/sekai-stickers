@@ -119,6 +119,29 @@ export default function Info({ open, handleClose, config }) {
               </ListItem>
             </List>
             <Typography variant="h6" component="h3">
+              The discord bot:
+            </Typography>
+            <List>
+              <ListItem
+                button
+                onClick={() =>
+                  (window.location.href =
+                    "https://discord.com/api/oauth2/authorize?client_id=1092869678499631197&permissions=8797166798848&scope=bot")
+                }
+              >
+                <ListItemAvatar>
+                  <Avatar
+                    alt="Discord"
+                    src="https://cdn.discordapp.com/embed/avatars/0.png"
+                  />
+                </ListItemAvatar>
+                <ListItemText
+                  primary="Sekai Stickers"
+                  secondary="Add more fun to your server."
+                />
+              </ListItem>
+            </List>
+            <Typography variant="h6" component="h3">
               Total stickers made using the app:
               <br />
               {config?.global
