@@ -177,7 +177,7 @@ function App() {
               to your server for even more fun.
             </p>
             <a
-              href="https://discord.com/api/oauth2/authorize?client_id=1092869678499631197&permissions=8797166798848&scope=bot"
+              href="http://link.ayaka.one/stbot"
               className="bannerbutton"
               target="_blank"
               rel="noreferrer"
