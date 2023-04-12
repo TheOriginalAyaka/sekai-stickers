@@ -30,7 +30,7 @@
 
 ## <img src="https://cdn.discordapp.com/emojis/859424401186095114.png" width="20px" height="20px"> 》Description
 
-[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=TheOriginalAyaka&repo=sekai-stickers&theme=tokyonight&show_owner=true&hide_border=true)](https://github.com/TheOriginalAyaka/sekai-stickers)
+[![Readme Card](https://git-stats.ayaka.one/api/pin/?username=TheOriginalAyaka&repo=sekai-stickers&theme=tokyonight&show_owner=true&hide_border=true)](https://github.com/TheOriginalAyaka/sekai-stickers)
 
 ## <img src="https://cdn.discordapp.com/emojis/852881450667081728.gif" width="20px" height="20px"> 》Feature
 
