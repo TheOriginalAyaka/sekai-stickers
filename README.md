@@ -26,7 +26,7 @@
 
 ## 🤖》Discord Bot
 
-### Sekai Stickers is also a discord bot, you can invite it [here](https://discord.com/api/oauth2/authorize?client_id=1092869678499631197&permissions=8797166798848&scope=bot)
+### Sekai Stickers is also a discord bot, you can invite it [here](http://link.ayaka.one/stbot)
 
 ## <img src="https://cdn.discordapp.com/emojis/859424401186095114.png" width="20px" height="20px"> 》Description
 
