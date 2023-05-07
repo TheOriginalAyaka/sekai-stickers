@@ -173,8 +173,8 @@ function App() {
         <div className="bannercontainer">
           <div className="bannermessage">
             <p>
-              Sekai Stickers is now on Discord! Introducing our new bot - add it
-              to your server for even more fun.
+              Sekai Stickers Discord bot is now verified! - add it to your
+              server for even more fun.
             </p>
             <a
               href="http://link.ayaka.one/stbot"
