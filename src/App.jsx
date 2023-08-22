@@ -172,17 +172,14 @@ function App() {
       {!bannerView && (
         <div className="bannercontainer">
           <div className="bannermessage">
-            <p>
-              Sekai Stickers Discord bot is now verified! - add it to your
-              server for even more fun.
-            </p>
+            <p>New Sekai Stickers mobile app is coming soon</p>
             <a
-              href="http://link.ayaka.one/stbot"
+              href="https://link.ayaka.one/boM9XJ"
               className="bannerbutton"
               target="_blank"
               rel="noreferrer"
             >
-              Invite <span>&rarr;</span>
+              Learn more <span>&rarr;</span>
             </a>
           </div>
           <div className="bannerdismiss">
