@@ -10,13 +10,13 @@ import Picker from "./components/Picker";
 import Info from "./components/Info";
 import getConfiguration from "./utils/config";
 import log from "./utils/log";
-import { bannerViewed, setBannerViewed } from "./utils/banner";
+//import { bannerViewed, setBannerViewed } from "./utils/banner";
 
 const { ClipboardItem } = window;
 
 function App() {
   const [config, setConfig] = useState(null);
-  const [bannerView, setBannerView] = useState(bannerViewed());
+  //const [bannerView, setBannerView] = useState(bannerViewed());
 
   // using this to trigger the useEffect because lazy to think of a better way
   const [rand, setRand] = useState(0);
