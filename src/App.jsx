@@ -169,7 +169,7 @@ function App() {
   return (
     <div className="App">
       <Info open={infoOpen} handleClose={handleClose} config={config} />
-      {!bannerView && (
+      {/*!bannerView && (
         <div className="bannercontainer">
           <div className="bannermessage">
             <p>
@@ -199,9 +199,9 @@ function App() {
             </button>
           </div>
         </div>
-      )}
+            )*/}
       <div className="counter">
-        Total Stickers you made: {config?.total || "Not available"}
+        Total Stickers you've made: {config?.total || "Not available"}
       </div>
       <div className="container">
         <div className="vertical">
